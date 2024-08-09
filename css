@@ -1,0 +1,25 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px; /* Rounded left corners */
+  width: 200px; /* Adjust as needed */
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue color */
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0; /* Rounded right corners */
+  cursor: pointer;
+}
+img { }
